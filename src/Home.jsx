@@ -6,6 +6,7 @@ function Home() {
     <aside className="Home">
     <h1>home</h1>
     <p>bem vindo</p>
+    <p>funcinou</p>
     </aside>
   );
 }
