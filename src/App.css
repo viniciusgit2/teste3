@@ -1,6 +1,58 @@
 .App {
   text-align: center;
+  color:blanchedalmond;
+  background-color: black;
 }
+
+.Calculadora{
+  height: 480px;
+  width: 753px;
+  border-radius: 300px;
+  background-color: gold;
+  overflow: hidden;
+color: goldenrod;
+ display: grid;
+ grid-template-columns: repeat(4);
+ grid-template-rows:subgrid;
+ margin: auto;
+}
+.Button{
+background-color: crimson;
+color: black;
+
+}
+.Menu{
+  background-color: deepskyblue;
+  display: flex;
+  flex-basis: 250px;
+  }
+  .Menu ul{
+    list-style: none;
+    padding: 0;
+
+  }
+  .Menu li{
+    display: flex;
+
+  }
+  .Menu li a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 5rem;
+    margin-bottom: 5px;
+    flex: 1;
+  }
+  .Menu nav{
+    flex: 1;
+  }
+.Display{
+  background-color: orangered;
+ margin: auto;;
+ height: 130px;
+color: whitesmoke;
+
+}
+
 
 .App-logo {
   height: 40vmin;

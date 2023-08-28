@@ -1,9 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Calculadora from './calc/Calculadora'
+import Menu from './navegação/Menu';
+import Content from './navegação/Content';
+import { BrowserRouter } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
+      <BrowserRouter>
+      <Menu></Menu>
+      <Content></Content>
+      </BrowserRouter>
+      <Calculadora></Calculadora>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
