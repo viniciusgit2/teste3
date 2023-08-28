@@ -12,6 +12,7 @@ function Menu() {
           <p>menu</p>
           <a href="./About"><About></About></a>  
           <a href="./Content"><Content></Content></a>
+          <a href="../Param"><Param></Param></a>
         </li>
         </ul>
       </nav>
