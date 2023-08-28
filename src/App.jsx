@@ -9,7 +9,6 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Menu></Menu>
-      <Content></Content>
       </BrowserRouter>
       <Calculadora></Calculadora>
       <header className="App-header">
