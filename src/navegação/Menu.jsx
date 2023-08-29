@@ -4,6 +4,8 @@ import './Menu.css';
 import About from "./About";
 import Content from "./Content";
 import Usestate from "../hooks/Usestate";
+import { Link } from 'react-router-dom'
+
 function Menu() {
   return (
     <aside className="Menu">
@@ -12,9 +14,9 @@ function Menu() {
         <li>
           <p>menu</p>
           <Usestate>use state</Usestate>
-          <a href="./About"><About></About></a>  
-          <a href="./Content"><Content></Content></a>
-          <a href="../Param"><Param></Param></a>
+          <Link to="./About"><About></About></Link>  
+          <Link to ="./Content"><Content></Content></Link>
+          <Link to ="../Param"><Param></Param></Link>
         </li>
         </ul>
       </nav>
