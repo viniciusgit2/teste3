@@ -13,4 +13,4 @@ const Title = props => (
 
 )
 
-export default PageTitle
+export default Title
