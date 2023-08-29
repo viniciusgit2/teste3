@@ -3,6 +3,38 @@
   color:blanchedalmond;
   background-color: black;
 }
+.Title {
+  border-left: 10px solid #006c90;
+  padding: 15px;
+  background: #006c9025;
+  margin-bottom: 40px;
+}
+
+.Title h1 {
+  margin: 0;
+  font-weight: 400;
+}
+
+.Title h2 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+
+.Title.error{
+  border-left: 12px solid#cb2d3e;
+  background:#cb2d3e25;
+}
+.Title {
+  border-bottom: 3px solid #006c90;
+}
+
+.Title h3 {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 2rem;
+  font-weight: 400;
+}
 
 .Calculadora{
   height: 480px;
