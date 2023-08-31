@@ -3,6 +3,7 @@ export default class Contador extends React.Component{
     state={
 numero:this.props.numeroinicial==0
 
+
     }
 constructor(props){
     super(props)
@@ -11,6 +12,7 @@ constructor(props){
     init(){
 this.setState({
 numero:this.state.numero+1
+
 }
 )
     }
