@@ -4,9 +4,13 @@ import Calculadora from './calc/Calculadora'
 import Menu from './navegação/Menu';
 import Content from './navegação/Content';
 import { BrowserRouter } from 'react-router-dom';
+import Aleatorio from './componentes/Aleatorio'
+import Contador from './componentes/Contadador';
 function App() {
   return (
     <div className="App">
+      <Contador/>
+      <Aleatorio></Aleatorio>
       <BrowserRouter>
       <Menu></Menu>
       </BrowserRouter>
