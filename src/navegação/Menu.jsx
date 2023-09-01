@@ -5,7 +5,7 @@ import About from "./About";
 import Content from "./Content";
 import Usestate from "../hooks/Usestate";
 import { Link } from 'react-router-dom'
-
+import Title from "../hooks/Title";
 function Menu() {
   return (
     <aside className="Menu">
@@ -13,7 +13,7 @@ function Menu() {
         <ul>
         <li>
           <p>menu</p>
-          <Usestate>use state</Usestate>
+          <Link to="../Title"><Title></Title></Link>  
           <Link to="./About"><About></About></Link>  
           <Link to ="./Content"><Content></Content></Link>
           <Link to ="../Param"><Param></Param></Link>

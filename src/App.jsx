@@ -6,6 +6,7 @@ import Content from './navegação/Content';
 import { BrowserRouter } from 'react-router-dom';
 import Aleatorio from './componentes/Aleatorio'
 import Contador from './componentes/Contadador';
+import About from './navegação/About';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <Aleatorio></Aleatorio>
       <BrowserRouter>
       <Menu></Menu>
+      <About/>
       </BrowserRouter>
       <Calculadora></Calculadora>
       <header className="App-header">
